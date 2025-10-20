@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.vscode/
+*.pyc
+
+# Build outputs
+*.bin
+*.elf
+*.map
+
+# ESP-IDF config (gets regenerated)
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.esp32s3
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+*.log
+
+# board-specific config
+!sdkconfig.esp32-s3-devkitc-1
