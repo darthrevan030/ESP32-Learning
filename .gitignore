@@ -8,8 +8,7 @@
 *.elf
 *.map
 
-# ESP-IDF config (gets regenerated)
-sdkconfig
+# ESP-IDF config (gets regenerated, but keep board-specific ones)
 sdkconfig.old
 sdkconfig.defaults.esp32s3
 
@@ -21,6 +20,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# board-specific config
-!sdkconfig.esp32-s3-devkitc-1
