@@ -2,6 +2,7 @@
 .pio/
 .vscode/
 *.pyc
+*.code-workspace
 
 # Build outputs
 *.bin
